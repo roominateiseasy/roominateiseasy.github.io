@@ -7,6 +7,7 @@
   .row1 {
     background:linear-gradient(rgba(248,186,0,0.1), rgba(0,0,0,1)), url("https://static.pexels.com/photos/342521/pexels-photo-342521.jpeg");
     padding-top: 6rem;
+    height: 100vh;
   }
   .row2 {
     background:linear-gradient(rgba(255,255,255,1), rgba(0,0,0,1)), url("https://static.pexels.com/photos/4441/city-people-art-sidewalk.jpg");
@@ -38,12 +39,15 @@
     padding-top: 6rem;
   }
   .row2 {
+    height:100vh;
     background:linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,1)), url("https://static.pexels.com/photos/4441/city-people-art-sidewalk.jpg");
   }
   .row3 {
+
     background-color:black;
   }
   .row{
+        height:100vh;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
