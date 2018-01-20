@@ -45,7 +45,7 @@
     padding-left: 1rem;
     text-align:left;
   }
-  .col-md-6{
+  .col-md-6 .text{
     line-height:2.8rem;
   }
 }
@@ -78,7 +78,7 @@
   .nav-item {
     font-size: 2rem;
   }
-  .col-md-6{
+  .col-md-6 .text{
     line-height:3.2rem;
   }
   strong {
