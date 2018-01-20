@@ -2,65 +2,82 @@
   body {
     scroll-behavior: smooth;
     font-size: 1rem;
-    background-color:black;
-    width:1000vw;
   }
-  .roominate-logo{
-    display: none;
-  }
-  .container{
 
-    float:left;
-    position:relative;
-    font-size: 1.4rem;
-    padding:5rem;
-    width:100vw;
-    height: 70vh;
-    margin-right: 20vw;
+  .row1 {
+    background:linear-gradient(rgba(248,186,0,0.1), rgba(0,0,0,1)), url("https://static.pexels.com/photos/342521/pexels-photo-342521.jpeg");
+    padding-top: 6rem;
+  }
+  .row2 {
+    background:linear-gradient(rgba(255,255,255,1), rgba(0,0,0,1)), url("https://static.pexels.com/photos/4441/city-people-art-sidewalk.jpg");
+  }
+  .row3 {
+    background-color:black;
+  }
+  .row{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: multiply;
+  }
+  strong {
+      font-size: 4rem;
+      background-color: black;
+  }
+  p{
+    padding-left: 1rem;
     text-align:left;
-    color:#F8BA00;
   }
 }
 @media(min-width:768px){
   body {
-    font-size: 2rem;
+    font-size: 3rem;
+  }
+  .row1 {
+    background:linear-gradient(rgba(248,186,0,0.1), rgba(0,0,0,1)), url("https://static.pexels.com/photos/342521/pexels-photo-342521.jpeg");
+    padding-top: 6rem;
+  }
+  .row2 {
+    background:linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,1)), url("https://static.pexels.com/photos/4441/city-people-art-sidewalk.jpg");
+  }
+  .row3 {
     background-color:black;
-    width:1000vw;
   }
-  .container{
-    float:left;
-    position:relative;
-    font-size: 1.4rem;
-    padding:10rem;
-    width:100vw;
-    margin-right: 20vw;
-    text-align:left;
-    color:#F8BA00;
+  .row{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode:multiply;
   }
-  .navbar-brand{
+  .navbar-brand {
     display:none;
   }
-  .roominate-logo{
+  .nav-item {
     font-size: 2rem;
-    position: fixed;
-    width: 100vw;
-    top:0;
-    left:0;
-    padding:2rem;
-    text-align: left;
-    margin:auto auto;
-    color:#F8BA00;
   }
-  .roominate-logo:hover{
-    text-decoration:none;
+  strong {
+      font-size: 4rem;
+  }
+  p{
+    font-size: 1.8rem;
+    padding-left: 2rem;
+    text-align:left;
+
   }
 }
 @media(min-width:992px){
-  .navbar-brand{
-    font-size: 3rem;
-  }
-  .container{
-    padding:15rem;
+  p{
+    font-size: 2rem;
+    padding-left: 1rem;
+    text-align:left;
+
   }
 }
-@media(min-width:1200px){}
+@media(min-width:1200px){
+  .nav-item {
+    font-size: 2.5rem;
+  }
+  #big-logo {
+    font-size:6rem;
+  }
+}
