@@ -40,6 +40,7 @@
   strong {
       font-size: 4rem;
       background-color: black;
+      style=" line-height:3.4rem;"
   }
   p{
     padding-left: 1rem;
@@ -83,6 +84,7 @@
   }
   strong {
       font-size: 4rem;
+      style=" line-height:3.4rem;"
   }
   p{
     font-size: 1.8rem;
