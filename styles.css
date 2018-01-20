@@ -39,7 +39,7 @@
   strong {
       font-size: 3.4rem;
       background-color: black;
-      style=" line-height:3rem;"
+      line-height:3rem;
   }
   p{
     padding-left: 1rem;
