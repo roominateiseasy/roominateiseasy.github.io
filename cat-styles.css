@@ -18,6 +18,9 @@
     /* background-color: #a9a9a9; */
     background:linear-gradient(rgba(248, 186, 0, 1), rgba(0,0,0,1));
   }
+  .col-sm-12 img {
+    width:50%;
+  }
   .order-div {
     background-image: url("images/brand/room-st-pic.jpg");
     padding-bottom: 0;
@@ -58,7 +61,6 @@
     line-height:2.4rem;
     font-size: 1.6rem;
     text-align:center;
-
   }
 }
 @media(min-width:768px){
