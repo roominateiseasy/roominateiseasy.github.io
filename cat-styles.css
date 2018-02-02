@@ -3,7 +3,11 @@
     src: url("fonts/SanFranciscoDisplay-Medium.otf") format("opentype");
 
 }
-
+.music-div {
+  /* background-color: #a9a9a9; */
+  background:linear-gradient(rgba(155,34,34,1), rgba(100,34,34,1));
+  padding-top: 4rem;
+}
 @media(max-width:767px){
   body {
     scroll-behavior: smooth;
@@ -20,6 +24,12 @@
   }
   .col-sm-12 img {
     width:70%;
+  }
+  .col-sm-6 {
+        color:white;
+  }
+  .col-sm-12 {
+        color:white;
   }
   .order-div {
     background-image: url("images/brand/room-st-pic.jpg");
@@ -88,11 +98,6 @@
   .movies-div {
     /* background-color: #a9a9a9; */
     background:linear-gradient(rgba(248, 186, 0, 1), rgba(0,0,0,1));
-    padding-top: 4rem;
-  }
-  .music-div {
-    /* background-color: #a9a9a9; */
-    background:linear-gradient(rgba(155,34,34,1), rgba(100,34,34,1));
     padding-top: 4rem;
   }
   .order-div {
