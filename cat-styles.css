@@ -32,7 +32,7 @@
         color:white;
   }
   .order-div {
-    background-image: url("images/brand/room-st-pic.jpg");
+    background-image:url("https://static.pexels.com/photos/258136/pexels-photo-258136.jpeg");
     padding-bottom: 0;
     background-position: center;
     background-repeat: no-repeat;
@@ -72,6 +72,9 @@
     font-size: 1.6rem;
     text-align:center;
   }
+  .hide-small {
+    display: none;
+  }
 }
 @media(min-width:768px){
   .col-sm-6 {
@@ -101,11 +104,15 @@
     padding-top: 4rem;
   }
   .order-div {
-    background-image: url("images/brand/room-st-pic.jpg");
+    background-image:url("https://static.pexels.com/photos/258136/pexels-photo-258136.jpeg");
+    padding-bottom: 0;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     background-blend-mode:multiply;
+  }
+  .hide-small {
+    display: none;
   }
   .share-page {
     padding-bottom:5rem;
@@ -149,6 +156,16 @@
   #menu-logo {
     width:25%;
     padding-bottom: 0.5rem;
+  }
+  .order-div {
+    background-image: url("images/brand/room-st-pic.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode:multiply;
+  }
+  .hide-small {
+    display: inline-block;
   }
 }
 @media(min-width:1200px){
