@@ -14,7 +14,7 @@
     font-size: 0.8rem;
     font-family: "SanFranciscoDisplay-Medium";
   }
-  img {
+  .container-fluid img {
     padding-top:10%;
     padding-bottom: 2rem;
   }
@@ -56,7 +56,6 @@
     background-blend-mode: multiply;
   }
   #menu-logo {
-    padding-top: 0;
     width:20%;
     padding-bottom: 0.5rem;
   }
@@ -83,7 +82,7 @@
   .col-sm-12 {
         color:white;
   }
-  img {
+  .container-fluid img {
     padding-top:6rem;
     padding-bottom: 10vh;
   }
@@ -128,13 +127,21 @@
   .navbar-brand {
     display:none;
   }
+  ul {
+    padding-right: 2.6rem;
+  }
   .nav-item {
     font-size: 2rem;
   }
   #menu-logo {
-    padding-top: 0;
-    width:20%;
-    padding-bottom: 1rem;
+
+    height:50%;
+    width:25%;
+    margin-right: -2.5rem;
+  }
+  #menu-logo img {
+    width:24%;
+    padding-bottom: 0rem;
   }
   strong {
       font-size: 4rem;
@@ -149,13 +156,18 @@
   }
   #description p {
     text-align:left;
-    background-color: white;
+    background-color: #F8BA00;
+    color:white;
   }
 }
 @media(min-width:992px){
-  #menu-logo {
-    width:25%;
-    padding-bottom: 0.5rem;
+  #description p {
+    text-align:left;
+  }
+  #menu-logo img {
+    margin-left: 0;
+    padding-left: 0;
+    width:26%;
   }
   .order-div {
     background-image: url("images/brand/room-st-pic.jpg");
@@ -175,6 +187,11 @@
   #menu-logo {
     width:30%;
   }
+  #menu-logo img {
+    margin-left: 0;
+    padding-left: 0;
+    width:26%;
+  }
   #big-logo {
     font-size:6rem;
   }
@@ -193,15 +210,4 @@
     width:40%;
   }
 }
-}
-@media (min-width: 768px) {
-.gal-container .modal-dialog {
-    width: 55%;
-    margin: 50 auto;
-}
-}
-@media (max-width: 768px) {
-    .gal-container .modal-content{
-        height:250px;
-    }
 }
