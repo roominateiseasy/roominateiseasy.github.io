@@ -3,9 +3,18 @@
     src: url("fonts/SanFranciscoDisplay-Medium.otf") format("opentype");
 
 }
+.movies-div {
+  /* background-color: #a9a9a9; */
+  background:linear-gradient(rgba(248, 186, 0, 1), rgba(0,0,0,1));
+}
 .music-div {
   /* background-color: #a9a9a9; */
   background:linear-gradient(rgba(155,34,34,1), rgba(100,34,34,1));
+  padding-top: 4rem;
+}
+.other-div {
+  /* background-color: #a9a9a9; */
+  background:linear-gradient(rgba(30,34,130,1), rgba(15,10,45,1));
   padding-top: 4rem;
 }
 @media(max-width:767px){
@@ -17,10 +26,6 @@
   .container-fluid img {
     padding-top:10%;
     padding-bottom: 2rem;
-  }
-  .movies-div {
-    /* background-color: #a9a9a9; */
-    background:linear-gradient(rgba(248, 186, 0, 1), rgba(0,0,0,1));
   }
   .col-sm-12 img {
     width:70%;
@@ -55,9 +60,10 @@
     background-size: cover;
     background-blend-mode: multiply;
   }
-  #menu-logo {
-    width:20%;
+
+  #menu-logo img {
     padding-bottom: 0.5rem;
+    width:20%;
   }
   strong {
       font-size: 3.4rem;
@@ -75,7 +81,7 @@
     display: none;
   }
 }
-@media(min-width:768px){
+@media(min-width:767px){
   .col-sm-6 {
         color:white;
   }
@@ -86,7 +92,6 @@
     padding-top:6rem;
     padding-bottom: 10vh;
   }
-
   body {
     font-family: "SanFranciscoDisplay-Medium";
     font-size: 3rem;
@@ -129,19 +134,17 @@
   }
   ul {
     padding-right: 2.6rem;
+    width:90vw;
   }
   .nav-item {
-    font-size: 2rem;
+    font-size: 1.8rem;
   }
   #menu-logo {
-
-    height:50%;
-    width:25%;
-    margin-right: -2.5rem;
+    margin-right: -2.8rem;
   }
   #menu-logo img {
     width:24%;
-    padding-bottom: 0rem;
+    padding-bottom: 0.5rem;
   }
   strong {
       font-size: 4rem;
@@ -164,11 +167,6 @@
   #description p {
     text-align:left;
   }
-  #menu-logo img {
-    margin-left: 0;
-    padding-left: 0;
-    width:26%;
-  }
   .order-div {
     background-image: url("images/brand/room-st-pic.jpg");
     background-position: center;
@@ -184,14 +182,7 @@
   .nav-item {
     font-size: 2.5rem;
   }
-  #menu-logo {
-    width:30%;
-  }
-  #menu-logo img {
-    margin-left: 0;
-    padding-left: 0;
-    width:26%;
-  }
+
   #big-logo {
     font-size:6rem;
   }
