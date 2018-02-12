@@ -28,10 +28,17 @@
     background-size: cover;
     background-blend-mode: multiply;
   }
+  .navbar .navbar-collapse {
+    text-align: right;
+}
   #menu-logo img {
+    position:absolute;
+    left:14%;
+    bottom:20%;
     padding-bottom: 0.5rem;
     width:20%;
   }
+
   .catalogue-page strong {
       line-height: normal;
       background:none;

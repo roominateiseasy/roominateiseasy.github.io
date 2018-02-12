@@ -63,10 +63,14 @@ body {
     background-size: cover;
     background-blend-mode: multiply;
   }
-  .nav-item {
+  .nav .nav-item {
     font-size: 2rem;
   }
+  .navbar .navbar-collapse {
+    text-align: right;
+}
   #menu-logo img {
+    display:none;
     padding-bottom: 0.5rem;
     width:20%;
   }
