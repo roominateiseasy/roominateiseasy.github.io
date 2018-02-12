@@ -3,6 +3,9 @@
     src: url("fonts/SanFranciscoDisplay-Medium.otf") format("opentype");
 
 }
+body {
+  background-color: #black;
+}
 .movies-div {
   /* background-color: #a9a9a9; */
   background:linear-gradient(rgba(248, 186, 0, 1), rgba(0,0,0,1));
@@ -60,7 +63,9 @@
     background-size: cover;
     background-blend-mode: multiply;
   }
-
+  .nav-item {
+    font-size: 2rem;
+  }
   #menu-logo img {
     padding-bottom: 0.5rem;
     width:20%;

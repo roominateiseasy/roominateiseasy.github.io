@@ -28,9 +28,9 @@
     background-size: cover;
     background-blend-mode: multiply;
   }
-  #menu-logo {
-    width:20%;
+  #menu-logo img {
     padding-bottom: 0.5rem;
+    width:20%;
   }
   .catalogue-page strong {
       line-height: normal;
