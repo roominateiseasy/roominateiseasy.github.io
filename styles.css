@@ -31,7 +31,9 @@
   .navbar .navbar-collapse {
     text-align: center;
 }
-
+.nav .nav-item {
+  font-size: 2rem;
+}
   #menu-logo img {
     padding-bottom: 0.5rem;
     width:10%;
