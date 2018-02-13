@@ -20,6 +20,10 @@ body {
   background:linear-gradient(rgba(30,34,130,1), rgba(15,10,45,1));
   padding-top: 4rem;
 }
+.share-page {
+  height:100vh;
+  background:rgb(248, 186, 0);
+}
 @media(max-width:767px){
   body {
     scroll-behavior: smooth;
@@ -127,10 +131,7 @@ body {
   .hide-small {
     display: none;
   }
-  .share-page {
-    padding-bottom:5rem;
-    background:rgb(248, 186, 0);
-  }
+
   .row{
     min-height:100vh;
     background-position: center;
@@ -149,11 +150,10 @@ body {
     font-size: 1.8rem;
   }
   #menu-logo {
-    margin-right: -2.8rem;
+    width:60px;
   }
   #menu-logo img {
-    width:24%;
-    padding-bottom: 0.5rem;
+    width:60%;
   }
   strong {
       font-size: 4rem;
