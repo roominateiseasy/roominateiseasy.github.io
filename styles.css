@@ -31,8 +31,8 @@
   .navbar .navbar-collapse {
     text-align: center;
 }
+
   #menu-logo img {
-  
     padding-bottom: 0.5rem;
     width:10%;
   }
@@ -45,9 +45,12 @@
   }
   strong {
       font-size: 3.4rem;
-      background:none
+      background:none;
       line-height:4.6rem;
       font-weight: bold;
+  }
+  .row2 strong{
+    background-color: white;
   }
 
   p {
@@ -98,6 +101,9 @@
       font-size: 4rem;
       line-height:4rem;
       font-weight: bold;
+  }
+  #big-logo {
+    background:none;
   }
   .catalogue-page strong {
       line-height: normal;
