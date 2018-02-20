@@ -46,7 +46,9 @@
       line-height: normal;
       background:none;
       font-size: 150%;
-
+  }
+  .order-button-homepage {
+      margin-top: -5%;
   }
   strong {
       font-size: 3.4rem;
