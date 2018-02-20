@@ -4,7 +4,7 @@
 
 }
 body {
-  background-color: #black;
+  background-color: black;
 }
 .movies-div {
   /* background-color: #a9a9a9; */
@@ -44,7 +44,7 @@ body {
         color:white;
   }
   .order-div {
-    background-image:url("https://static.pexels.com/photos/258136/pexels-photo-258136.jpeg");
+    background-image:url("https://static.pexels.com/photos/97906/pexels-photo-97906.jpeg");
     padding-bottom: 0;
     background-position: center;
     background-repeat: no-repeat;
@@ -121,7 +121,7 @@ body {
     padding-top: 4rem;
   }
   .order-div {
-    background-image:url("https://static.pexels.com/photos/258136/pexels-photo-258136.jpeg");
+    background-image:url("https://static.pexels.com/photos/97906/pexels-photo-97906.jpeg");
     padding-bottom: 0;
     background-position: center;
     background-repeat: no-repeat;

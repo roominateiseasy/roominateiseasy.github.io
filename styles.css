@@ -17,6 +17,9 @@
   .row2 {
     background:linear-gradient(rgba(255,255,255,1), rgba(0,0,0,1)), url("https://static.pexels.com/photos/4441/city-people-art-sidewalk.jpg");
   }
+  .row3 {
+    background:black;
+  }
   .catalogue-page {
     background-color:rgb(248,186,0);
   }
@@ -79,6 +82,9 @@
   }
   .row2 {
     background:linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,1)), url("https://static.pexels.com/photos/4441/city-people-art-sidewalk.jpg");
+  }
+  .row3 {
+    background:linear-gradient(rgba(255,255,255,1), rgba(0,0,0,1)), url("https://static.pexels.com/photos/568505/pexels-photo-568505.png");
   }
   .catalogue-page {
     background-color:rgb(248,186,0);
