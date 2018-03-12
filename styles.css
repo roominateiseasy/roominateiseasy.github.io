@@ -15,7 +15,9 @@
     font-size: 0.8rem;
     font-family: "SanFranciscoDisplay-Medium";
   }
-
+  #separator {
+    display:normal;
+  }
   .row1 {
     background:linear-gradient(rgba(255,255,255,1), rgba(0,0,0,.6)), url("https://static.pexels.com/photos/761963/pexels-photo-761963.jpeg");
   }
@@ -77,6 +79,9 @@
   body {
     font-family: "SanFranciscoDisplay-Medium";
     font-size: 3rem;
+  }
+  #separator {
+    display:none;
   }
   .nav, .navbar, .navbar-nav,  .navbar-nav li {
   	text-align:center;
