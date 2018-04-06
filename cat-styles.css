@@ -42,7 +42,8 @@ hr {
   }
   #logo {
     width:18rem;
-    position:relative;
+    position:absolute;
+    text-align: center;
   }
   .col-sm-12 img {
     width:70%;
