@@ -4,25 +4,28 @@
 
 }
 body {
-  background-color: black;
+  background-color: none;
 }
-.movies-div {
+#fade1 {
   /* background-color: #a9a9a9; */
-  background:linear-gradient(rgba(248, 186, 0, 1), rgba(0,0,0,1));
+  background:linear-gradient(rgba(248, 186, 0, 1), rgba(200,50,15,1));
 }
-.music-div {
+#fade2 {
   /* background-color: #a9a9a9; */
-  background:linear-gradient(rgba(155,34,34,1), rgba(100,34,34,1));
+  background:linear-gradient(rgba(200,50,15,1), rgba(70,34,90,1));
   padding-top: 4rem;
 }
-.other-div {
+#fade3 {
   /* background-color: #a9a9a9; */
-  background:linear-gradient(rgba(30,34,130,1), rgba(15,10,45,1));
+  background:linear-gradient(rgba(70,34,90,1), rgba(15,10,45,1));
   padding-top: 4rem;
 }
 .share-page {
   height:100vh;
   background:rgb(248, 186, 0);
+}
+hr {
+  border-color:white;
 }
 @media(max-width:767px){
   body {
@@ -31,8 +34,15 @@ body {
     font-family: "SanFranciscoDisplay-Medium";
   }
   .container-fluid img {
-    padding-top:10%;
+    padding-top:8%;
     padding-bottom: 2rem;
+  }
+  .container-fluid {
+        text-align: center;
+  }
+  #logo {
+    width:18rem;
+    position:relative;
   }
   .col-sm-12 img {
     width:70%;
@@ -102,8 +112,21 @@ body {
         color:white;
   }
   .container-fluid img {
-    padding-top:6rem;
-    padding-bottom: 10vh;
+    padding-top:2rem;
+    padding-bottom:5rem;
+  }
+  .hide-large {
+    display: none;
+  }
+  #logo {
+    width:24rem;
+    position:absolute;
+    top:0;
+    left:0;
+    z-index:999;
+    border:none;
+    overflow:hidden
+    margin:0; padding:0;
   }
   body {
     font-family: "SanFranciscoDisplay-Medium";
@@ -117,7 +140,6 @@ body {
   }
   .movies-div {
     /* background-color: #a9a9a9; */
-    background:linear-gradient(rgba(248, 186, 0, 1), rgba(0,0,0,1));
     padding-top: 4rem;
   }
   .order-div {
@@ -171,10 +193,20 @@ body {
     background-color: #F8BA00;
     color:white;
   }
+  img {
+    width:60%;
+  }
 }
 @media(min-width:992px){
   #description p {
     text-align:left;
+  }
+
+  .container-fluid {
+    max-width: 70rem;
+  }
+  .force-full-width {
+    max-width:100%;
   }
   .order-div {
     background-image: url("images/brand/room-st-pic.jpg");
@@ -186,6 +218,7 @@ body {
   .hide-small {
     display: inline-block;
   }
+
 }
 @media(min-width:1200px){
   .nav-item {
@@ -203,11 +236,7 @@ body {
       font-size: 4rem;
       line-height:6rem;
   }
-  img {
-    width:60%;
-  }
-  #logo {
-    width:40%;
-  }
+
+
 }
 }
